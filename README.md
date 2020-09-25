@@ -1,6 +1,10 @@
 # SDLtutorials
 This repo is here to make life easy to build and run Lazyfoo SDL tutorials
 
+### Platforms:
+1. Linux
+2. Winodws - Need to verify (under construction)
+
 ### Requirements:
 1. minimum cmake-3.10
 2. SDL2 library
@@ -15,9 +19,16 @@ This repo is here to make life easy to build and run Lazyfoo SDL tutorials
 4. SDL2_ttf library: Just like SDL2_image library installation. Replace image with ttf
 5. SDL2_mixer library: Just like SDL2_image library installation. Replace image with mixer
 
-### Platforms:
-1. Linux
-2. Winodws - Need to verify (under construction)
+### Build:
+```sh
+cmake -S . -B _build
+```
+### Run:
+```sh
+cmake --build _build
+```
+### Bugs:
+If you have any issues drop an email to vinodsake042@gmail.com
 
 ### Credits:
 Lazy Foo' Productions
